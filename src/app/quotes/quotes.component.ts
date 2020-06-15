@@ -13,7 +13,7 @@ export class QuotesComponent implements OnInit {
     new Quotes(4, "Melisa","Zig Ziglar","Your attitude, not your aptitude, will determine your altitude.",new Date(2018,6,4))
 
 
-  ];;
+  ];
   addNewQuotes(quote){
     let quoteLength = this.quotes.length;
     quote.id = quoteLength+1;
