@@ -1,0 +1,17 @@
+<div class="container">
+	<h1>Quixotic Quotes</h1>
+
+	<div class="row">
+		<div class="col-md-6">
+			<div class="quotes" *ngFor="let quote of quotes; let i=index">
+				<p>{{quote.name}} {{i}} </p>
+				<button class="btn btn-warning"(click)=toggleDetails(i)>Show Quote</button>
+				<app-details *ngIf='quote.showDescription'[quote]="quote" (isComplete) = 'deleteQuote($event,i )'></app-details>
+			</div>
+		</div>
+		<div class="col-md-6">
+			<app-form (emitquote)="addNewQuotes($event)"></app-form>
+		</div>>
+	</div>
+
+</div>
