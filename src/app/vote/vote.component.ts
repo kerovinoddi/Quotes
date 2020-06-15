@@ -5,7 +5,7 @@ import {Quotes} from '../quotes'
   selector: 'app-vote',
   templateUrl: './vote.component.html',
   styleUrls: ['./vote.component.css']
-}))
+})
 export class VoteComponent implements OnInit {
 
   @Output() isComplete = new EventEmitter<boolean>();
