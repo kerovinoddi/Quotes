@@ -1,8 +1,9 @@
 /* You can add global styles to this file, and also import other style files */
 @import "~bootstrap/dist/css/bootstrap.css";
 body{
-	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-	margin: 10px;
-	font-size: 3px;
-	background-color: ivory;
+	background-image: url(https://images.unsplash.com/photo-1527492662722-dbaf97270863?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80);
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	color: white;
+    font-size: 2em;
+    margin: 0%; 
 }
